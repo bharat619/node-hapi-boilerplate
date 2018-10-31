@@ -1,0 +1,33 @@
+{
+  "name": "hapi-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/bharat619"
+  },
+  "author": "Bharat",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^2.0.1",
+    "good": "^7.3.0",
+    "good-console": "^6.4.1",
+    "hapi": "^17.6.0",
+    "nodemon": "^1.18.5",
+    "pg": "^7.6.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.41.0",
+    "sequelize-cli": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "esm": "^3.0.84"
+  }
+}
