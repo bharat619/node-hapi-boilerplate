@@ -1,4 +1,5 @@
 "use strict";
+
 import Hapi from "hapi";
 import path from "path";
 import routes from "./routes";

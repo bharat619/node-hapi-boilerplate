@@ -1,5 +1,6 @@
 import good from "good";
 import goodConsole from "good-console";
+
 const config = [
   {
     register: good,
